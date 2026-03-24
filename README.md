@@ -3,6 +3,10 @@ UKIYO | The Floating World : Detachment from reality to the floating world of An
 
 # Description 
 UKIYO is a web application designed for Anime enthusiast.Inspired by the Japanese concept UKIYO (The Floating World) - Detachment from the outside world into the floating world of Anime,this platform allows the users to escape to their world of Anime by using the features like search,sort and filter through the anime titles , making this journey smooth.
+This project demonstrates the use of modern JavaScript concepts such as asynchronous API integration,and efficient data manipulation using Higher-Order Functions (HOFs).
+
+# Purpose
+Anime fans often struggle to find a centralized platform to explore, filter, and discover new anime efficiently. UKIYO aims to provide a seamless and visually engaging solution where users can search, sort, and explore anime content effortlessly.
 
 # API Used
 The API used for this interface is Jikan API 
