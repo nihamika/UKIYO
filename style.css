@@ -55,12 +55,12 @@ header:hover{
   width: 100%;
   height: auto;
   border-radius: 10px;
-  border: 1px solid #5b5e6e;
+  border: 1px solid crimson;
 }
 .anime-image:hover{
   border: 1px solid crimson;
 }
-.type, .status, .score{
+.type, .status, .score, .genres{
   text-align: left;
 }
 .type{
@@ -71,5 +71,44 @@ header:hover{
 }
 .score{
   color: #ffcc00;
+}
+.genres{
+  color: #20b2aa;
+}
+.controls {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #5b5e6e;
+  background: #0a1728;
+  color: white;
+  outline: none;
+}
+
+input:focus, select:focus {
+  border-color: crimson;
+}
+
+.view-more-btn {
+  background-color: transparent;
+  color: crimson;
+  border: 1px solid crimson;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.view-more-btn:hover {
+  background-color: crimson;
+  color: white;
 }
 

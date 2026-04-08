@@ -3,13 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>UKIYO</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<header>
+<header> 
     <h2>UKIYO | The Floating World</h2>
 </header>
 <body>
+    <div class="controls">
+    <input type="text" id="searchInput" placeholder="Search anime...">
+    
+    <select id="filterType">
+        <option value="all">All Types</option>
+        <option value="TV">TV</option>
+        <option value="Movie">Movie</option>
+        <option value="OVA">OVA</option>
+    </select>
+
+    <select id="sortScore">
+        <option value="none">Sort by Score</option>
+        <option value="desc">Highest First</option>
+        <option value="asc">Lowest First</option>
+    </select>
+    </div>
     <div id="container"></div>
     <script src="script.js"></script>
 
